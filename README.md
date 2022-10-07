@@ -15,3 +15,7 @@ Auto generate tests with Codegen.
 
 We suggest that you begin by typing:
 npx playwright test
+
+Run 'npx playwright test --project=chromium --reporter=list' to run tests just for chrome
+
+Run e.g 'npx playwright test tests/basics.spec.ts --project=chromium --reporter=list' to run the specific test and just run on chrome

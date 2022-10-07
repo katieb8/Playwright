@@ -60,12 +60,6 @@ const config = {
       },
     },
 
-    {
-      name: 'webkit',
-      use: {
-        ...devices['Desktop Safari'],
-      },
-    },
 
     /* Test against mobile viewports. */
     // {
